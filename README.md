@@ -17,7 +17,7 @@ ___
 
 ___
 ### Screenshots
-![Imgur](https://i.imgur.com/VjAyQQB.png)
+![Imgur](https://i.imgur.com/0UAEIi6.png)
 
 ___
 ### Usage:
