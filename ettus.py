@@ -14,7 +14,7 @@ Example usage: python3 ettuip.py 192.168.123.123 -p 1-1000
 -h                     To show this message
 -p(optional)           The range of ports to scan. (default: 1-65535)''')
 	sys.exit()
-min_range, max_range = 1, 65536
+min_range, max_range = 1, 65535
 
 ip = sys.argv[1]
 if '-p' in sys.argv:
