@@ -22,7 +22,7 @@ if '-p' in sys.argv:
 
 def scanner(port):
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-	s.settimeout(0.05)
+	s.settimeout(0.5)
 	try:
 		s.connect((ip, port))
 		print(f"Port \033[1;32m{str(port).ljust(4)}\033[0m     OPEN         {socket.getservbyport(port, 'tcp')}")
